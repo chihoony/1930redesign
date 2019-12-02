@@ -1,0 +1,85 @@
+img {
+  box-shadow: 5px, 5px, 10px, #5d5d5d;
+  border-radius: 50%;
+  border-style: 3px solid black;
+  display: block;
+}
+
+#logo {
+  padding-bottom: 5px;
+  margin-right: 5px;
+  width: 30px;
+  height: 35px;
+}
+
+.card-body ul li::first-letter, ol li::first-letter {
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #2f2f2f;
+}
+
+footer {
+  text-align: center;
+  display: relative;
+  background-color: #343a40;
+  color: #f1f2f1;
+}
+
+footer ul {
+  margin: 0 auto;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+footer p {
+  margin: 0;
+  padding-bottom: 1em;
+}
+
+main {
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 1600px;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+#row1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffff9e), to(#bbcf46));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #ffff9e, #bbcf46);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(top, #ffff9e, #bbcf46);
+  /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #ffff9e, #bbcf46);
+  /* IE10 */
+  background-image: linear-gradient(top, #ffff9e, #bbcf46);
+}
+
+#row2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b3ffd9), to(#3592fc));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #b3ffd9, #3592fc);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(top, #b3ffd9, #3592fc);
+  /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #b3ffd9, #3592fc);
+  /* IE10 */
+  background-image: linear-gradient(top, #b3ffd9, #3592fc);
+}
+
+#row3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a973ff), to(#ff2fdc));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #a973ff, #ff2fdc);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(top, #a973ff, #ff2fdc);
+  /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #a973ff, #ff2fdc);
+  /* IE10 */
+  background-image: linear-gradient(top, #a973ff, #ff2fdc);
+}

@@ -1,0 +1,25 @@
+//define mixin
+@mixin img-shadows{
+	box-shadow:5px, 5px, 10px, #5d5d5d;
+    border-radius:50%;
+    border-style: 3px solid black;
+}
+
+@mixin firstletter{
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #2f2f2f;
+}
+
+@mixin center {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+@mixin linear-gradient($from, $to) {
+    background-image: -webkit-gradient(linear, left top, left bottom, from($from), to($to)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, $from, $to); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, $from, $to); /* FF3.6 */
+    background-image:     -ms-linear-gradient(top, $from, $to); /* IE10 */
+    background-image:         linear-gradient(top, $from, $to);  
+}
