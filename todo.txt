@@ -1,2 +1,0 @@
-1. Add to meta site detailed descriptions of what each member contributed to the project.
-2. Link from meta site to prototype site.

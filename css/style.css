@@ -1,14 +1,13 @@
-img {
+.imgstyle {
   box-shadow: 5px, 5px, 10px, #5d5d5d;
-  border-radius: 50%;
+  border-radius: 0 0 50% 50%;
   border-style: 3px solid black;
   display: block;
 }
 
 #logo {
-  padding-bottom: 5px;
   margin-right: 5px;
-  width: 30px;
+  width: 35px;
   height: 35px;
 }
 
@@ -63,4 +62,22 @@ iframe {
 
 ._highlight:hover {
   filter: opacity(0.8);
+}
+
+.card-deckfit3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.card-deckfit2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+div .margintop0 {
+  margin-top: 0;
+}
+
+.btn-margin {
+  margin: 20px;
 }

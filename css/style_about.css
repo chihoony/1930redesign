@@ -1,7 +1,5 @@
-img {
-  box-shadow: 5px, 5px, 10px, #5d5d5d;
+.img-circle {
   border-radius: 50%;
-  border-style: 3px solid black;
   display: block;
   max-width: 70px;
   max-height: 70px;
@@ -31,12 +29,6 @@ footer ul {
 footer p {
   margin: 0;
   padding-bottom: 1em;
-}
-
-main {
-  margin: 0 auto;
-  justify-content: center;
-  max-width: 1600px;
 }
 
 html {

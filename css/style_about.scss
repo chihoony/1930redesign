@@ -2,8 +2,8 @@
 //import mixins
 @import "mixin.scss";
 
-img{
-    @include img-shadows;
+.img-circle{
+    border-radius: 50%;
     display: block;
     max-width: 70px;
     max-height: 70px;;
@@ -32,11 +32,6 @@ footer {
         margin:0;
         padding-bottom: 1em;
     }
-}
-
-main{
-    @include center;
-    max-width: 1600px;
 }
 
 html {

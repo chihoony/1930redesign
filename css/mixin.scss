@@ -1,7 +1,7 @@
 //define mixin
 @mixin img-shadows{
 	box-shadow:5px, 5px, 10px, #5d5d5d;
-    border-radius:50%;
+    border-radius:0 0 50% 50%;
     border-style: 3px solid black;
 }
 
