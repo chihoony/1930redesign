@@ -3,6 +3,8 @@ img {
   border-radius: 50%;
   border-style: 3px solid black;
   display: block;
+  max-width: 70px;
+  max-height: 70px;
 }
 
 #logo {

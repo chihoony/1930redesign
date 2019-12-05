@@ -5,8 +5,9 @@
 img{
     @include img-shadows;
     display: block;
+    max-width: 70px;
+    max-height: 70px;;
 }
-
 
 #logo{
     padding-bottom: 5px;
