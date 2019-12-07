@@ -2,10 +2,17 @@
 //import mixins
 @import "mixin.scss";
 
+html {
+    overflow-x: hidden;
+}
 .imgstyle {
     @include img-shadows;
     display: block;
 }
+
+img {
+    width: 100%;
+  }
 
 
 #logo{
@@ -57,6 +64,11 @@ iframe {
 
 }
 
+.container_big {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
 .jumbotron-white {
     background-color: white;
 }
@@ -68,8 +80,10 @@ iframe {
 
 .card-deckfit3 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
 }
+
+
 
 .card-deckfit2 {
     display:grid;

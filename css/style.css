@@ -1,8 +1,16 @@
+html {
+  overflow-x: hidden;
+}
+
 .imgstyle {
   box-shadow: 5px, 5px, 10px, #5d5d5d;
   border-radius: 0 0 50% 50%;
   border-style: 3px solid black;
   display: block;
+}
+
+img {
+  width: 100%;
 }
 
 #logo {
@@ -56,6 +64,11 @@ iframe {
   position: absolute;
 }
 
+.container_big {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 .jumbotron-white {
   background-color: white;
 }
@@ -66,7 +79,7 @@ iframe {
 
 .card-deckfit3 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
 }
 
 .card-deckfit2 {
